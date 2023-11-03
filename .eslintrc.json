@@ -1,0 +1,51 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    "no-param-reassign": 1,
+    "no-unused-vars": 2,
+    "max-len": "error",
+    "object-curly-spacing": ["error", "never"],
+    "prefer-destructuring": "off",
+    "comma-dangle": ["error", "never"],
+    "indent": ["error", 4],
+    "react/jsx-indent": [2,4],
+    "react/jsx-indent-props": [2,4],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-uses-react": "off"
+  },
+  "plugins": ["jest"],
+  "env": {
+    "jest/globals": true
+  }
+}
+
+/**
+no-param-reassign: This rule prevents the reassignment of function parameters. This is generally considered to be a bad practice, as it can make code more difficult to read and understand.
+
+no-unused-vars: This rule prevents the declaration of variables that are never used. This can help to reduce the size and complexity of code.
+
+max-len: This rule enforces a maximum line length. This can help to improve the readability and maintainability of code.
+
+object-curly-spacing: This rule enforces the use of spaces around curly braces in object literals. This can help to improve the readability and consistency of code.
+
+prefer-destructuring: This rule encourages the use of destructuring assignment over traditional variable assignment. This can help to make code more concise and readable.
+
+comma-dangle: This rule enforces the use or omission of trailing commas in object literals and function calls. This can help to improve the consistency of code.
+
+indent: This rule enforces the use of a specific indentation style. This can help to improve the readability and consistency of code.
+
+react/jsx-indent: This rule enforces the use of a specific indentation style for JSX code. This can help to improve the readability and consistency of JSX code.
+
+react/jsx-indent-props: This rule enforces the use of a specific indentation style for JSX props. This can help to improve the readability and consistency of JSX code.
+
+react/jsx-filename-extension: This rule enforces the use of a specific file extension for JSX files. This can help to improve the organization and consistency of code.
+
+In addition to the above, here are some specific details about the error levels you have specified:
+
+1: Warning
+2: Error
+
+
+
+*/
